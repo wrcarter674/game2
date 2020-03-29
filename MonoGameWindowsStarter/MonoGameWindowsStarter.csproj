@@ -45,6 +45,8 @@
     <Compile Include="Car.cs" />
     <Compile Include="Collisions.cs" />
     <Compile Include="Game1.cs" />
+    <Compile Include="particle.cs" />
+    <Compile Include="ParticleSystem.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -64,7 +64,7 @@ namespace MonoGameWindowsStarter
         {
             this.game = game;
             timer = new TimeSpan(0);
-            position = new Vector2(1042/2, 768-FRAME_HEIGHT);
+            position = new Vector2(1042/2, 900);
             state = State.Idle;
             Bounds.Width = 40;
             Bounds.Height = 40;
@@ -179,7 +179,7 @@ namespace MonoGameWindowsStarter
         {
             state = State.Idle;
             position.X = 1042 / 2;
-            position.Y = 768 - FRAME_HEIGHT;
+            position.Y = 900;
             Bounds.X = position.X;
             Bounds.Y = position.Y;
         }
